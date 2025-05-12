@@ -1,0 +1,134 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+        
+}
+body{
+    background-color: rgb(30, 206, 255);
+}
+nav{
+    background-color: #000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.brand{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 10px; color: white;
+}
+
+.nav-links li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+header{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.content-left{
+    width: 45%;
+}
+
+.greeting{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.content-left h1{
+    font-size: 35px;
+}
+
+button{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin-top: 20px; 
+}
+.download{
+    margin-left: 30px;
+}
+.stack{
+    font-size: 20px;
+}
+
+.image-right{
+    width: 45%;
+}
+
+.image-right img{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.About{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.abt-img{
+    width: 45%;
+}
+.abt-img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: right;
+}
+.p-class{
+    float: right;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.services{
+    text-align: center;
+    margin-top: 300px;
+    font-size:40px;
+    text-decoration: underline;
+} 
+.align{
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+h2{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.ui{
+    border: 2px solid;
+    width: 20%;height: 185px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
